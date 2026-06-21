@@ -1,0 +1,38 @@
+.theFlexContainer{
+    display:flex;
+    flex-direction: row;
+}
+
+.container{
+    display:flex;
+    /* height: 700px; */
+    /* width:680px; */
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.gridButton{
+    height: 30px;
+    width: 150px;
+    /* justify-content: right; */
+}
+
+.eraser{
+    height: 30px;
+    width: 150px;
+    background-color: aquamarine;
+}
+
+.draw{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(136, 127, 255);
+}
+
+.square{
+    height: 40px;
+    width: 40px;
+    border:1px solid black;
+    outline-color:black;
+}
+
